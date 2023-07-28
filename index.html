@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="anostyle.css">
+        <title>Ahmed Barakat</title>
+    </head>
+<body>
+    <div>
+        <iframe src="main.html" width="800px" height="600px" id="website"></iframe>
+    </div>
+    <h2>Full Color CRT</h2>
+    <CENTER>
+       <h1 id="hi">ZAMZUNG</h1>
+    </CENTER>
+    <button id="pwrbtn" onClick="newSrc();">ON</button>
+    <button id="pwrbtn" onClick="newSrcg();">OFF</button>
+</body>
+</html>
+<script>
+    function newSrc() {
+    document.getElementById("website").src="main.html";
+    }
+function newSrcg() {
+    document.getElementById("website").src="off.html";
+} 
+</script>

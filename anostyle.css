@@ -1,0 +1,33 @@
+@font-face {
+    font-family: body;
+    src: url(Rubik-VariableFont_wght.ttf);
+}
+body{
+    background-color: F5F5DC;
+    font-family: body;
+}
+div {
+    position:absolute;
+    width:780px;
+    height:650px;
+    left:50%;
+    top:50%;
+    margin-left:-390px;
+    margin-top:-325px;
+
+}
+#hi{
+    position:relative;
+    top:550px;
+}
+#pwrbtn{
+    border:solid gray 2px;
+    color:green;
+    background-color: white;
+    border-radius:40000px;
+    position: relative;
+    top:480px;
+    height:50px;
+    width:50px;
+    margin-left:10px;
+}
