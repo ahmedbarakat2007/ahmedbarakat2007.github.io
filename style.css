@@ -29,7 +29,7 @@ br{
 #pic{
     border-radius:7px;
     float:right;
-    margin-right:10px;
+    margin-right:20px;
     width:220px;
     margin-top:20px;
 }
@@ -37,8 +37,7 @@ h1{
     font-family: h1;
 }
 .toppart2 a{
-    margin-left:40px;
-    margin-right:40px;
+    margin:60px;
     color:lightgreen;
     font-size: x-large;
 }
@@ -92,8 +91,29 @@ h1{
     background-color: lightgreen;
     height:60px;
     border:none;
-    width:430px;
+    max-width:430px;
+    width:70%;
     font-family: body;
     font-size: large;
     cursor: pointer;
 }
+::-webkit-scrollbar {
+    width: 0.1px;
+ }
+
+ /* Track */
+ ::-webkit-scrollbar-track {
+   background: black; 
+ }
+
+ /* Handle */
+ ::-webkit-scrollbar-thumb {
+   background: black; 
+   border-radius: 10px;
+ }
+
+ /* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover {
+   transition: 7s;
+   background:black; 
+ }
