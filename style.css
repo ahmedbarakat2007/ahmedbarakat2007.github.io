@@ -117,3 +117,13 @@ h1{
    transition: 7s;
    background:black; 
  }
+ #hi{
+    border:solid 1px lightgreen;
+    background-color: black;
+    color:green;
+    font-family: body;
+    max-width:400px;
+    width:60%;
+    max-height:200px;
+    height:60%;
+ }
