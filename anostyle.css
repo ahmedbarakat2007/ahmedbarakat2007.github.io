@@ -18,7 +18,7 @@ div {
 }
 #hi{
     position:relative;
-    top:550px;
+    top:600px;
 }
 #pwrbtn{
     border:solid gray 2px;
@@ -26,7 +26,7 @@ div {
     background-color: white;
     border-radius:40000px;
     position: relative;
-    top:480px;
+    top:540px;
     height:50px;
     width:50px;
     margin-left:10px;
