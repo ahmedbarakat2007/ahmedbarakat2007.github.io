@@ -26,6 +26,14 @@ body{
 br{
     user-select: none;
 }
+@media only screen and (max-width: 480px) {
+    .fun{
+        display: none;
+    }
+}
+#social{
+    margin:20px;
+}
 #pic{
     border-radius:7px;
     float:right;

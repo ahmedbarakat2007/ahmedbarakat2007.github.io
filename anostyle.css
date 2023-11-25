@@ -6,30 +6,71 @@ body{
     background-color: F5F5DC;
     font-family: body;
 }
-div {
-    position:absolute;
-    width:780px;
-    height:650px;
+@media only screen and (max-width: 1280px) {
+  .gg {
+    position:fixed;
     left:50%;
     top:50%;
-    margin-left:-390px;
-    margin-top:-325px;
+    margin-left:-327px;
+    margin-top:-270px;
+    width:100%;
+    height:100%;
 
+  }
+  #website{
+  max-width:640px;
+  max-height:480px;
+  width:100%;
+  height:100%;
+  }
+}
+@media only screen and (min-width: 1281px) {
+  .gg {
+    position:fixed;
+    left:50%;
+    top:50%;
+    margin-left:-510px;
+    margin-top:-420px;
+    width:100%;
+    height:100%;
+
+  }
+  #website{
+  max-width:1024px;
+  max-height:786px;
+  width:100%;
+  height:100%;
+  }
 }
 #hi{
-    position:relative;
-    top:570px;
+    position:fixed;
+    margin-left: 5% auto; /* Only centers horizontally not vertically! */
+    left: 0;
+    right: 0;
+    bottom:0px;
 }
 #pwrbtn{
     border:solid gray 2px;
     color:green;
     background-color: white;
     border-radius:40000px;
-    position: relative;
-    top:500px;
+    position: fixed;
+    bottom:10px;
     height:50px;
     width:50px;
     margin-left:10px;
+}
+#offbtn{
+  border:solid gray 2px;
+  color:green;
+  background-color: white;
+  border-radius:40000px;
+  position: fixed;
+  bottom:10px;
+  left:70px;
+  height:50px;
+  width:50px;
+  margin-left:10px;
 }
   /* width */
   ::-webkit-scrollbar {
