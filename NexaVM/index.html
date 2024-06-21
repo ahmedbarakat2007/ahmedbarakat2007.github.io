@@ -1,0 +1,125 @@
+<html>
+    <head>
+        <title>NexaVM</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="Textures/nexalogo.jpg">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <center>
+        <div class="container">
+            <div class="centershow fade">
+                <img src="Textures/main.jpeg" id="c911c" draggable="false">
+                <div class="btn911"><a href="https://github.com/ahmedbarakat2007/NexaVM/releases/download/Beta/NexaVM.Installer.exe"><button id="btn911">Download Now</button></a></div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <hr width="260px">
+        <center><h1>Features</h1></center>
+        <hr width="260px">
+        <br>
+        <br>
+        <span class="reveal">
+            <span class="card">
+                <img src="Textures/arm.jpg" draggable="false" alt="Porsche 911 Carrera" id="card" style="width:50%"></a>
+                <span class="textlist"><h1>Support for ARM</h1></span>
+            </span>
+        <span class="card">
+            <img src="Textures/ppc.jpg" draggable="false" alt="Porsche 718 Cayman" id="card" style="width:50%"></a>
+            <span class="textlist"><h1>Support for PPC</h1></span>
+        </span>
+        </span>
+        <span class="reveal">
+        <span class="card">
+            <img src="Textures/easy.jpg" draggable="false" alt="Porsche 718 Boxster" id="card" style="width:50%"></a>
+            <span class="textlist"><h1>Easy to Use</h1></span>
+        </span>
+        <span class="card">
+            <img src="Textures/performance.jpg" draggable="false" alt="Porsche 918 Spyder" id="card" style="width:50%"></a>
+            <span class="textlist"><h1>More Performance</h1></span>
+        </span>
+        </span>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <hr width="168px">
+        <center><h1>About</h1></center>
+        <hr width="168px">
+        <br>
+        <br>
+        <div class="lemanc reveal">
+        <h2>What is NexaVM?</h2>
+        <br>
+        <br<br>
+        <p>Welcome to NexaVM, your versatile virtual machine solution designed for Windows. Built upon the robust foundation of QEMU, NexaVM extends its capabilities to support a wide range of architectures including x86, x86_64, ARM, ARM64, and PPC. Whether you're a developer, IT professional, or enthusiast, NexaVM offers a powerful platform to run multiple operating systems and experiment with diverse computing environments.</p>
+            <br>
+    <h2>Why Choose NexaVM?</h2>
+    <p>NexaVM stands out as a reliable choice for virtualization on Windows, combining the versatility of QEMU with extended architecture support. Whether you're exploring new operating systems, testing software compatibility, or developing cross-platform applications, NexaVM provides the tools and environment you need to succeed.</p>
+
+    <p>Experience the power of NexaVM and unlock new possibilities in virtualization. Discover how NexaVM can enhance your computing experience and broaden your technical horizons today.</p>
+<br>
+    <h2>Get Started with NexaVM</h2>
+    <p>Visit our website to download NexaVM and embark on your virtualization journey. Join a community of users leveraging NexaVM to innovate and explore the future of computing.</p>
+
+    <p><em>Expand your horizons with NexaVM — virtualization made versatile.</em></p>
+        </p><br><br>
+    </div>
+        <br>
+        <br>
+        <br>
+        <hr width="158px">
+        <center><h1>Note</h1></center>
+        <hr width="158px">
+        <br>
+        <br>
+        <p>Unfortunally i might not be able to Continue on the Development of NexaVM due to be that The Source Code Has Been Deleted Accedentily and i Need to Decompile The Current Version which i failed to do Unfortunally so i Might Not Try Again as long as the Program Does not Gain any Attention</p>
+         <br>
+         <br>
+        </section>
+    </center>
+    </body>
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        } 
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("centershow");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+        }
+        /* Set the width of the side navigation to 250px */
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        } 
+
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <script src="animation.js"></script>
+</html>
